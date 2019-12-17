@@ -1,13 +1,63 @@
-body {
-  background-color: white;
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: Black;
 }
 
-h1 {
-
+.Photo-1, .Photo-2, .Photo-3, .Photo-4 {
+  position: relative;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: darkblue;
+  background-size: cover;
+  min-height: 30%;
 }
 
-p {
+.Photo-1 {
+  background-image: url("Photo-1.jfif");
+  min-height: 100%;
+  background-size: auto;
+}
 
+.textSection {
+  background-color:darkblue;
+  padding:50px 80px;
+}
+
+.Photo-2 {
+  background-image: url("Photo-2.jfif");
+}
+
+.Photo-3 {
+  background-image: url("Photo-3.jfif");
+}
+
+.Photo-4 {
+  background-image: url("Photo-4.jfif");
+}
+.caption {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: white;
+  text-align:center
+}
+
+.border {
+  background-color: Black;
+  color: White;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
 
 a {
@@ -21,4 +71,14 @@ a {
 .navigation{
   padding: 10px 80px;
   background-color: black;
+}
+
+p {
+  color: white;
+  font: 12px;
+}
+
+li {
+  color: white;
+  font: 12px;
 }
