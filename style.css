@@ -60,10 +60,6 @@ h3 {
   letter-spacing: 10px;
 }
 
-a {
-  color: white;
-}
-
 .title {
   padding: 30px 80px;
 }
@@ -71,6 +67,22 @@ a {
 .navigation{
   padding: 10px 80px;
   background-color: black;
+}
+
+.quizButton{
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  display: inline-block
+}
+
+.question{
+  font-size: 24px;
 }
 
 p {
@@ -81,4 +93,8 @@ p {
 li {
   color: white;
   font: 12px;
+}
+
+a {
+  color: white;
 }
