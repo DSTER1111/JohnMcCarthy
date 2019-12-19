@@ -92,7 +92,7 @@ function disableAll() {
 }
 
 //Question 4
-var question4 = "What year did John coin the term 'Artificial Intelligence'?";
+var question4 = "4. What year did John coin the term 'Artificial Intelligence'?";
 var answers4 = ['1950', 'He Didnt','1955', '1960'];
 var answerButtons4 = document.getElementsByClassName('quizButton4');
 var correct4 = 2 ;
@@ -123,7 +123,7 @@ function disableAll() {
 }
 
 //Question 5
-var question5 = "How old was john when he died?";
+var question5 = "5. How old was john when he died?";
 var answers5 = ['72', '78', '84', '93'];
 var answerButtons5 = document.getElementsByClassName('quizButton5');
 var correct5 = 2 ;
@@ -134,7 +134,7 @@ for(var spot=0; spot<answers5.length; spot++)
 
     answerButtons5[spot].addEventListener('click', function() {
         disableAll();
-        if(this.innerHTML == answers5[correct1]) {
+        if(this.innerHTML == answers5[correct5]) {
             this.setAttribute('style','background-color:rgb(76,175,80);');
         }else {
             this.setAttribute('style','background-color:rgb(215,50,35);');
@@ -154,7 +154,7 @@ function disableAll() {
 }
 
 //Question 6
-var question6 = "What is Johns hometown?";
+var question6 = "6. What is Johns hometown?";
 var answers6 = ['Boston', 'Springfield', 'Little Rock', 'New York'];
 var answerButtons6 = document.getElementsByClassName('quizButton6');
 var correct6 = 0 ;
@@ -185,10 +185,10 @@ function disableAll() {
 }
 
 //Question 7
-var question7 = "When was John McCarthy born?";
-var answers7 = ['1927', '1928', '1929', '1930'];
+var question7 = "7. What is the name of the programming language John created?";
+var answers7 = ['HTML', 'JAVA', 'STOP', 'LISP'];
 var answerButtons7 = document.getElementsByClassName('quizButton7');
-var correct7 = 0 ;
+var correct7 = 3 ;
 
 for(var spot=0; spot<answers7.length; spot++)
 {
@@ -196,7 +196,7 @@ for(var spot=0; spot<answers7.length; spot++)
 
     answerButtons7[spot].addEventListener('click', function() {
         disableAll();
-        if(this.innerHTML == answers7[correct1]) {
+        if(this.innerHTML == answers7[correct7]) {
             this.setAttribute('style','background-color:rgb(76,175,80);');
         }else {
             this.setAttribute('style','background-color:rgb(215,50,35);');
@@ -216,10 +216,10 @@ function disableAll() {
 }
 
 //Question 8
-var question8 = "Where did John McCarthy get his Ph.D from?";
-var answers8 = ['He stole it', 'Harvard', 'Stanford', 'Princeton'];
+var question8 = "8. In what year did John recieve the Ben Franklin Medal?";
+var answers8 = ['2003', '1997', '1978', '2012'];
 var answerButtons8 = document.getElementsByClassName('quizButton8');
-var correct8 = 3 ;
+var correct8 = 0 ;
 
 for(var spot=0; spot<answers8.length; spot++)
 {
@@ -247,10 +247,10 @@ function disableAll() {
 }
 
 //Question 9
-var question9 = "When was John McCarthy born?";
-var answers9 = ['1927', '1928', '1929', '1930'];
+var question9 = "9. What class did John fail in College?";
+var answers9 = ['Visual Art', 'PE', 'Topography', 'Quantum Physics'];
 var answerButtons9 = document.getElementsByClassName('quizButton9');
-var correct9 = 0 ;
+var correct9 = 1 ;
 
 for(var spot=0; spot<answers9.length; spot++)
 {
@@ -278,8 +278,8 @@ function disableAll() {
 }
 
 //Question 10
-var question10 = "Where did John McCarthy get his Ph.D from?";
-var answers10 = ['He stole it', 'Harvard', 'Stanford', 'Princeton'];
+var question10 = "10. How would you rate this Quiz?";
+var answers10 = ['Awful', 'Ok', 'Good', 'Amazing'];
 var answerButtons10 = document.getElementsByClassName('quizButton10');
 var correct10 = 3 ;
 
