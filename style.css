@@ -16,7 +16,7 @@ body, html {
 }
 
 .Photo-1 {
-  background-image: url("Photo-1.jfif");
+  background-image: url("John\ portrait.jfif");
   min-height: 100%;
   background-size: auto;
 }
@@ -27,15 +27,15 @@ body, html {
 }
 
 .Photo-2 {
-  background-image: url("Photo-2.jfif");
+  background-image: url("John\ Photo.jfif");
 }
 
 .Photo-3 {
-  background-image: url("Photo-3.jfif");
+  background-image: url("John\ 3.jpg");
 }
 
 .Photo-4 {
-  background-image: url("Photo-4.jfif");
+  background-image: url("John\ 4.jpg");
 }
 .caption {
   position: absolute;
